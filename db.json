@@ -1,0 +1,244 @@
+{
+    "musics": [
+      {
+        "id": 1,
+        "title": "Say So",
+        "artist": "Doja Cat",
+        "genre": "Pop",
+        "year": 2020,
+        "image": "images/doja cat say so logo.jpeg"
+      },
+      {
+        "id": 2,
+        "title": "Kiss Me More",
+        "artist": "Doja Cat",
+        "genre": "Pop",
+        "year": 2021,
+        "image": "images/Planet Her.jpeg"
+      },
+      {
+        "id": 3,
+        "title": "Streets",
+        "artist": "Doja Cat",
+        "genre": "R&B",
+        "year": 2019,
+        "image": "images/doja cat vegas mv.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "Blinding Lights",
+        "artist": "The Weeknd",
+        "genre": "Pop",
+        "year": 2019,
+        "image": "images/The Weeknd Dawn Fm 2021 album cover.jpeg"
+      },
+      {
+        "id": 5,
+        "title": "Save Your Tears",
+        "artist": "The Weeknd",
+        "genre": "Pop",
+        "year": 2020,
+        "image": "images/77a4ba01-3b67-4c8b-af51-a43819d519c2.jpeg"
+      },
+      {
+        "id": 6,
+        "title": "Starboy",
+        "artist": "The Weeknd",
+        "genre": "R&B",
+        "year": 2016,
+        "image": "images/The Weeknd - Starboy.jpeg"
+      },
+      {
+        "id": 7,
+        "title": "Calm Down",
+        "artist": "Rema",
+        "genre": "Afrobeats",
+        "year": 2022,
+        "image": "images/Remaa.jpeg"
+      },
+      {
+        "id": 8,
+        "title": "Dumebi",
+        "artist": "Rema",
+        "genre": "Afrobeats",
+        "year": 2019,
+        "image": "images/Rema.jpeg"
+      },
+      {
+        "id": 9,
+        "title": "Charm",
+        "artist": "Rema",
+        "genre": "Afrobeats",
+        "year": 2023,
+        "image": "images/SEE BODY O!!!.jpeg"
+      },
+      {
+        "id": 10,
+        "title": "Isabella",
+        "artist": "Sauti Sol",
+        "genre": "Kenyan Afro-pop",
+        "year": 2015,
+        "image": "images/Sauti Sol - Isabella (Official Lyric Video).jpeg"
+      },
+      {
+        "id": 11,
+        "title": "Short N Sweet",
+        "artist": "Sauti Sol",
+        "genre": "Kenyan Afro-pop",
+        "year": 2018,
+        "image": "images/3f67a37b-b72b-414e-970f-c97d2812ee50.jpeg"
+      },
+      {
+        "id": 12,
+        "title": "Melanin",
+        "artist": "Sauti Sol",
+        "genre": "Kenyan Afro-pop",
+        "year": 2017,
+        "image": "images/80fe83cb-4852-4659-b1b7-8dd41fb373c3.jpeg"
+      },
+      {
+        "id": 13,
+        "title": "Good Days",
+        "artist": "SZA",
+        "genre": "R&B, Neo-Soul",
+        "year": 2020,
+        "image": "images/SZA - Ctrl.jpeg"
+      },
+      {
+        "id": 14,
+        "title": "Saturn",
+        "artist": "SZA",
+        "genre": "R&B, Neo-Soul",
+        "year": 2024,
+        "image": "images/SZA SOS ALBUM.jpeg"
+      },
+      {
+        "id": 15,
+        "title": "Kill Bill",
+        "artist": "SZA",
+        "genre": "R&B, Pop",
+        "year": 2022,
+        "image": "images/sza.jpeg"
+      },
+      {
+        "id": 16,
+        "title": "What a Beautiful Name",
+        "artist": "Hillsong",
+        "genre": "Contemporary Worship",
+        "year": 2016,
+        "image": "images/What a Beautiful Name (with Break Every Chain) - Hillsong Worship.jpeg"
+      },
+      {
+        "id": 17,
+        "title": "Oceans",
+        "artist": "Hillsong",
+        "genre": "Contemporary Worship",
+        "year": 2013,
+        "image": "images/Taya Smith, Hillsong UNITED #tayasmith….jpeg"
+      },
+      {
+        "id": 18,
+        "title": "Who You Say I Am",
+        "artist": "Hillsong",
+        "genre": "Worship, Christian Rock",
+        "year": 2018,
+        "image": "images/Who You Say I Am __ Hillsong Worship __ New Song Cafe.jpeg"
+      },
+      {
+        "id": 19,
+        "title": "Free Mind",
+        "artist": "Tems",
+        "genre": "Afrobeats/R&B",
+        "year": 2018,
+        "image": "images/f224303f-0147-42d7-b4a1-4698914a9e04.jpeg"
+      },
+      {
+        "id": 20,
+        "title": "Fall",
+        "artist": "Davido",
+        "genre": "Afrobeats",
+        "year": 2017,
+        "image": "images/Timeless by Davido.jpeg"
+      },
+      {
+        "id": 21,
+        "title": "Levitating",
+        "artist": "Dua Lipa",
+        "genre": "Dance-Pop",
+        "year": 2020,
+        "image": "images/Dua Lipa future nostalgia.jpeg"
+      },
+      {
+        "id": 22,
+        "title": "Don't Start Now",
+        "artist": "Dua Lipa",
+        "genre": "Disco-Pop",
+        "year": 2019,
+        "image": "images/Dua Lipa - Don't Start Now.jpeg"
+      },
+      {
+        "id": 23,
+        "title": "bad guy",
+        "artist": "Billie Eilish",
+        "genre": "Electropop",
+        "year": 2019,
+        "image": "images/b46e760b-eeff-424f-a764-1c66fdc9752e.jpeg"
+      },
+      {
+        "id": 24,
+        "title": "Happier Than Ever",
+        "artist": "Billie Eilish",
+        "genre": "Alternative Pop",
+        "year": 2021,
+        "image": "images/happier than ever.jpeg"
+      },
+      {
+        "id": 25,
+        "title": "Circles",
+        "artist": "Post Malone",
+        "genre": "Hip-Hop",
+        "year": 2018,
+        "image": "images/734011c8-4a84-4e09-ba2a-9c024cc567f5.jpeg"
+      },
+      {
+        "id": 26,
+        "title": "Sunflower",
+        "artist": "Post Malone",
+        "genre": "Hip-Hop",
+        "year": 2018,
+        "image": "images/6313fcc8-624c-47e9-98ca-5f1b3388b9ef.jpeg"
+      },
+      {
+        "id": 27,
+        "title": "drivers license",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop",
+        "year": 2021,
+        "image": "images/olivia rodrigo.jpeg"
+      },
+      {
+        "id": 28,
+        "title": "good 4 u",
+        "artist": "Olivia Rodrigo",
+        "genre": "Pop Punk",
+        "year": 2021,
+        "image": "images/GOOD 4 U.jpeg"
+      },
+      {
+        "id": 29,
+        "title": "Last Last",
+        "artist": "Burna Boy",
+        "genre": "Afrobeat",
+        "year": 2022,
+        "image": "images/Burna boy.jpeg"
+      },
+      {
+        "id": 30,
+        "title": "Joro",
+        "artist": "Wizkid",
+        "genre": "Afrobeat",
+        "year": 2019,
+        "image": "images/Joro- Wizkid.jpeg"
+      }
+    ]
+  }

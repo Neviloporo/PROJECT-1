@@ -1,0 +1,47 @@
+#new{
+   text-align: start;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: blueviolet;
+ 
+}
+
+#genre-filter{
+   text-align: center;
+   display: flex;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   background-color: #f4f4f4;
+}
+
+#music-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 15px; 
+   padding: 20px;
+   background-color: mediumturquoise;
+   
+}
+
+.music-image {
+   width: 150px;
+   height: 150px;
+   object-fit: cover; 
+   border-radius: 10px;
+   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease-in-out;
+}
+
+.music-image:hover {
+   transform: scale(1.1); 
+}
+
+#recent {
+   background-color: blueviolet;
+}
+
