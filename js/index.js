@@ -66,6 +66,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+const musicContainer = document.getElementById("music-container");
+
+
 
 
 
