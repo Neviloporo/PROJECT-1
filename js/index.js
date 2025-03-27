@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let allSongs = [];
 
     
-    fetch("http://localhost:3000/musics")
+    fetch("https://project-1-server-flame.vercel.app/musics")
         .then(response => response.json())
         .then(data => {
             allSongs = data;
