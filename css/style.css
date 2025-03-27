@@ -1,47 +1,114 @@
-#new{
-   text-align: start;
+body {
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
-   background-color: blueviolet;
- 
-}
-
-#genre-filter{
-   text-align: center;
-   display: flex;
-}
-
-body {
+   margin: 0;
    font-family: Arial, sans-serif;
-   text-align: center;
-   background-color: #f4f4f4;
 }
+
+
+.sidebar {
+   width: 250px;
+   background-color: #222;
+   color: white;
+   padding: 20px;
+   height: 100vh;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+
+.sidebar ul {
+   list-style: none;
+   padding: 0;
+}
+
+.sidebar li {
+   margin: 10px 0;
+   cursor: pointer;
+}
+
 
 #music-container {
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
-   gap: 15px; 
+   gap: 15px;
+   margin-left: 270px; 
    padding: 20px;
-   background-color: mediumturquoise;
-   
+   cursor: pointer;
 }
 
-.music-image {
+.music-item {
    width: 150px;
-   height: 150px;
+   text-align: center;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.music-item img {
+   width: 100%;
+   height: 150px; 
    object-fit: cover; 
    border-radius: 10px;
-   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-   transition: transform 0.3s ease-in-out;
 }
 
-.music-image:hover {
-   transform: scale(1.1); 
+
+#now-playing {
+   position: fixed;
+   bottom: 0;
+   left: 250px;
+   right: 0;
+   background-color: #111;
+   color: white;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+}
+
+#now-playing img {
+   width: 60px;
+   height: 60px;
+   margin-right: 10px;
+   border-radius: 5px;
 }
 
 #recent {
-   background-color: blueviolet;
+   margin-left: 270px; 
+   padding: 20px;
 }
 
+#recent h2 {
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.recent-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+}
+
+.recent-item {
+   width: 150px;
+   text-align: center;
+}
+
+.recent-item img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+#genre-filter {
+   top: 60px; 
+   left: 50%;
+   transform: translateX(-50%); 
+   padding: 8px;
+   font-size: 16px;
+   border-radius: 5px;
+   background-color: #222;
+   color: white;
+   border: none;
+}

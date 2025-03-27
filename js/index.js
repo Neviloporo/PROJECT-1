@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     function displaySongs(songs) {
-        musicContainer.innerHTML = ""; // Clear container
+        musicContainer.innerHTML = "";
         songs.forEach(song => {
             const songDiv = document.createElement("div");
             songDiv.classList.add("music-item");
@@ -65,6 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
         displaySongs(filteredSongs);
     });
 });
+
+
+
 
 
 

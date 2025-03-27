@@ -3,47 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axels</title>
+    <title>Axels Music App</title>
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
     <script src="js/index.js" defer></script>
+
+    <div class="sidebar">
+        <h2>Groovy</h2>
+        <ul>
+            <li>Explore</li>
+            <li>Genres</li>
+            <li>Albums</li>
+            <li>Artists</li>
+        </ul>
+
+        <h3>Library</h3>
+
+        <ul>
+            <li>Recent</li>
+            <li>Albums</li>
+            <li>Favorites</li>
+        </ul>
+
+
+        <input type="text" id="search-input" placeholder="Search music...">
+
+    </div>
+
+    
+    
     
     <div id="new">
         <h2>Songs</h2>
     </div>
 
-    <div id="music-container"></div>
+    
 
     <div id="recent">
         <h2>Now Playing</h2>
+
+        <select id="genre-filter">
+            <option value="All">All Genres</option>
+            <option value="Pop">Pop</option>
+            <option value="Hip-Hop">Hip-Hop</option>
+            <option value="R&B">R&B</option>
+            <option value="Afrobeat">Afrobeat</option>
+            <option value="Kenyan Afro-pop">Kenyan Afro-pop</option>
+            <option value="Contemporary Worship">Contemporary Worship</option>
+            <option value="Worship, Christian Rock">Worship, Christian Rock</option>
+        </select>
+    
     </div>
    
     
 
-    <select id="genre-filter">
-        <option value="All">All Genres</option>
-        <option value="Pop">Pop</option>
-        <option value="Hip-Hop">Hip-Hop</option>
-        <option value="R&B">R&B</option>
-        <option value="Afrobeat">Afrobeat</option>
-        <option value="Kenyan Afro-pop">Kenyan Afro-pop</option>
-        <option value="Contemporary Worship">Contemporary Worship</option>
-        <option value="Worship, Christian Rock">Worship, Christian Rock</option>
-    </select>
 
-    
-    
+
+    <div id="music-container"></div>
+
     <div id="now-playing">
         <img id="now-playing-img" alt="Now Playing">
         <div id="now-playing-text">
             <h2 id="now-playing-title">Music Title</h2>
             <p id="now-playing-artist">Artist</p>
         </div>
+        <section class="trending">
+            <button>Listen Now</button>
+        </section>
     </div>
-
-    <input type="text" id="search-input" placeholder="Search music...">
-    
+       
 </body>
 </html>
+
+
+
+
+
+
